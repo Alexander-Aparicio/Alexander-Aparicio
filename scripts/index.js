@@ -1,5 +1,10 @@
-import { alex } from "./alex.js"
+import footer from "./footer.js"
+import header from "./header.js"
+import Rooter from "./Router.js"
+
 
 document.addEventListener('DOMContentLoaded', ()=>{
-    alex()
+    header()
+    Rooter()
+    footer()
 })

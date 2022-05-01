@@ -1,0 +1,24 @@
+@mixin reset {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    @include reset();
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    border-bottom: solid 1px #fff5;
+    position: sticky;
+    top: 0;
+    background-color: #1e1e1e;
+
+    & .name {
+        margin: 0;
+        font-weight: bold;
+        color: #f4f4f4;
+        text-decoration: none;
+    }
+}

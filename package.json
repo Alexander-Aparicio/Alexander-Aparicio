@@ -1,0 +1,24 @@
+{
+  "name": "reto5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch styles/styles.scss styles/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexander-Aparicio/Reto5-codigo.git"
+  },
+  "author": "Alexander Meza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexander-Aparicio/Reto5-codigo/issues"
+  },
+  "homepage": "https://github.com/Alexander-Aparicio/Reto5-codigo#readme",
+  "description": "",
+  "dependencies": {
+    "sass": "^1.51.0"
+  }
+}

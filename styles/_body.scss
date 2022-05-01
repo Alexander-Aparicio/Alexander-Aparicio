@@ -1,0 +1,16 @@
+@mixin reset {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.body {
+    @include reset();
+    font-family: 'Rubik', sans-serif;
+    background-color: #1e1e1e;
+    color: #f4f4f4;
+    min-height: 100vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 55px auto;
+}
