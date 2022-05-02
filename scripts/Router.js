@@ -1,27 +1,31 @@
 import alex from "./alex.js"
+import documentReady from "./brian.js"
 import home from "./home.js"
 
-const Rooter = ()=>{
+const Rooter = () => {
 
     let { pathname } = location
     console.log(location)
 
-    const Handler = async()=>{
+    const Handler = async () => {
 
         switch (pathname) {
 
-            case '/': 
+            case '/':
                 home()
-            break;
+                break;
 
-            case `/alex.html`: 
+            case `/alex.html`:
                 alex()
                 break;
-        
-            default: 
-                
+
+            case `/brian.html`:
+                documentReady()
                 break;
-                
+            default:
+
+                break;
+
         }
     }
     Handler()

@@ -24,7 +24,7 @@ const home = ()=>{
             name: 'Brian',
             color: '#03e9f4',
             id: 'button-2',
-            href:''
+            href:'brian'
         },
         {
             name: 'Victor',
