@@ -3,7 +3,6 @@ const giancarlo = () => {
   const $main = d.getElementById('main')
   const form = d.getElementById('paciente-form')
 
-  //-----------
   class Paciente {
     constructor(nombre, dni, telefono, hijos) {
       this.nombre = nombre
@@ -37,8 +36,6 @@ const giancarlo = () => {
           pacienteLista.appendChild(elemento);
       }
   }
-
-  //------------
 
   const button = d.createElement('button');  
   button.style.setProperty('text-align', 'center')
