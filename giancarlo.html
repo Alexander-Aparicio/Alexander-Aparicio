@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Giancarlo</title>
+  </head>
+
+  <body class="body">
+    <header id="header" class="header"></header>
+    <main id="main" class="main">
+        <h1 class="text-center text-info">Console, if.....else y clases</h1>
+      <div class="container">
+        <h2>Datos del paciente</h2>
+        <form id="paciente-form">
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input
+              type="text"
+              class="form-control"
+              id="nombre"
+              placeholder="Nombre completo"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="dni" class="form-label">DNI</label>
+            <input
+              type="text"
+              class="form-control"
+              id="dni"
+              placeholder="Nro de DNI"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="telefono" class="form-label">Teléfono</label>
+            <input
+              type="text"
+              class="form-control"
+              id="telefono"
+              placeholder="Nro de teléfono"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="hijos" class="form-label">Hijos</label>
+            <input
+              type="number"
+              class="form-control"
+              id="hijos"
+              placeholder="Cantidad de hijos"
+            />
+          </div>          
+          <input name="enviar" type="submit" value="Enviar" class="btn btn-primary">
+          <input type="reset" value="Limpiar" class="btn btn-secondary m-2">
+        </form>
+        <div id="paciente-lista"></div>
+      </div>      
+    </main>
+    <footer id="footer" class="footer"></footer>
+    <script src="./scripts/index.js" type="module"></script>
+  </body>
+</html>
