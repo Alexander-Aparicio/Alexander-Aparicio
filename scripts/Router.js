@@ -1,3 +1,4 @@
+import giancarlo from "./giancarlo.js"
 import alex from "./alex.js"
 import home from "./home.js"
 import victor from "./victor.js"
@@ -21,11 +22,14 @@ const Rooter = ()=>{
 
             case `/alex.html`: 
                 alex()
-                break;
+            break;
+            
+            case `/giancarlo.html`: 
+                giancarlo()
+            break;
         
-            default: 
-                
-                break;
+            default:                 
+            break;
                 
         }
     }
