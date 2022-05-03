@@ -8,7 +8,7 @@ const victor = ()=> {
     const $main = d.getElementById('main')
 
     const title = d.createElement('h1')
-    title.textContent = 'SUMANDO, RESTANDO Y COMPARANDO'
+    title.textContent = 'SUMANDO Y RESTANDO'
 
     const texto = d.createElement('p')
     texto.style.setProperty('font-size','22px')
@@ -22,6 +22,18 @@ const victor = ()=> {
 
     $main.appendChild(title)
     $main.appendChild(texto)
+
+    const texto2 = d.createElement('p')
+    texto2.style.setProperty('font-size','22px')
+    texto2.setAttribute('class','texto')
+    
+    const restando = ()=>{
+        return 7-2
+    }
+
+    texto2.textContent = `7 - 2 = ${restando()}` 
+
+    $main.appendChild(texto2)
 
     const button = d.createElement('button')
     button.style.setProperty('text-align','center')
