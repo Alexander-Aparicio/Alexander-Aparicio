@@ -1,20 +1,21 @@
 import giancarlo from "./giancarlo.js"
 import alex from "./alex.js"
+import documentReady from "./brian.js"
 import home from "./home.js"
 import victor from "./victor.js"
 
-const Rooter = ()=>{
+const Rooter = () => {
 
     let { pathname } = location
     console.log(location)
 
-    const Handler = ()=>{
+    const Handler = () => {
 
         switch (pathname) {
 
-            case '/': 
+            case '/':
                 home()
-            break;
+                break;
 
             case '/index.html': 
                 home()
@@ -27,8 +28,16 @@ const Rooter = ()=>{
             case `/giancarlo.html`: 
                 giancarlo()
             break;
-        
-            default:                 
+            
+            case `/victor.html`:
+                victor()
+            break;
+            
+            case `/brian.html`:
+                documentReady()
+            break;
+            
+            default:               
             break;
                 
         }
