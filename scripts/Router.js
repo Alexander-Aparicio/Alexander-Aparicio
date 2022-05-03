@@ -1,16 +1,21 @@
 import alex from "./alex.js"
 import home from "./home.js"
+import victor from "./victor.js"
 
 const Rooter = ()=>{
 
     let { pathname } = location
     console.log(location)
 
-    const Handler = async()=>{
+    const Handler = ()=>{
 
         switch (pathname) {
 
             case '/': 
+                home()
+            break;
+
+            case '/index.html': 
                 home()
             break;
 
