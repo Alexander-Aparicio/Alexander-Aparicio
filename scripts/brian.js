@@ -34,7 +34,8 @@ const documentReady = () => {
 formRegistro.addEventListener('submit', registrar);
 
 }
-document.addEventListener('DOMContentLoaded', documentReady);
+
+export default documentReady
 
 
 

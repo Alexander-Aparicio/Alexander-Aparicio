@@ -30,7 +30,7 @@ const home = ()=>{
             name: 'Victor',
             color: '#03e9f4',
             id: 'button-3',
-            href:''
+            href:'victor'
         },
         {
             name: 'Giancarlo',
