@@ -43,7 +43,7 @@ const home = ()=>{
     buttons.forEach((el)=>{
 
         const button = d.createElement('a')
-        button.setAttribute('href',`http://127.0.0.1:5500/${el.href}.html`)
+        button.setAttribute('href',`https://alexander-aparicio.github.io/${el.href}.html`)
         button.setAttribute('class','button')
         button.setAttribute('id', `${el.id}`)
 
