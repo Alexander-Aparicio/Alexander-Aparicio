@@ -52,8 +52,8 @@ const home = ()=>{
 
     })
     
-        const title2 = d.createElement('h2')
-        title2.setAttribute('class','title')
+        const title2 = d.createElement('a')
+        title2.setAttribute('class','title enlace-reto6')
         title2.textContent = 'RETO 6 - JAVASCRIPT'
         $main.appendChild(title2)
 
