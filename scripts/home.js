@@ -51,6 +51,11 @@ const home = ()=>{
         buttonsBox.appendChild(button)
 
     })
+    
+        const title2 = d.createElement('h2')
+        title.setAttribute('class','title')
+        title.textContent = 'RETO 6 - JAVASCRIPT'
+        $main.appendChild(title2)
 
 }
 
