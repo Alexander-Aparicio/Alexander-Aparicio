@@ -66,7 +66,7 @@ const home = ()=>{
         buttonr6.setAttribute('class','button')
         buttonr6.setAttribute('id', 'button-5')
 
-        buttonr6.innerHTML = `<span></span><span></span><span></span><span></span>${el.name}`
+        buttonr6.innerHTML = `<span></span><span></span><span></span><span></span>Ir Reto 6`
         buttonsBox2.appendChild(buttonr6)
 
 }
