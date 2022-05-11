@@ -52,10 +52,22 @@ const home = ()=>{
 
     })
     
-        const title2 = d.createElement('a')
-        title2.setAttribute('class','title enlace-reto6')
-        title2.textContent = 'RETO 6 - JAVASCRIPT'
-        $main.appendChild(title2)
+    const title2 = d.createElement('h2')
+    title2.setAttribute('class','title enlace-reto6')
+    title2.textContent = 'RETO 6 - JAVASCRIPT'
+    $main.appendChild(title2)
+    
+    const buttonsBox2 = d.createElement('div')
+    buttonsBox2.setAttribute('class','buttons-box')
+    $main.appendChild(buttonsBox2) 
+    
+    const buttonr6 = d.createElement('a')
+        buttonr6.setAttribute('href',`https://alexander-aparicio.github.io/app-provisional.html`)
+        buttonr6.setAttribute('class','button')
+        buttonr6.setAttribute('id', 'button-5')
+
+        buttonr6.innerHTML = `<span></span><span></span><span></span><span></span>${el.name}`
+        buttonsBox2.appendChild(buttonr6)
 
 }
 
